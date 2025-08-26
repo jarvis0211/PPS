@@ -7,7 +7,7 @@ int main(){
 	int sum =0;
 	printf("Enter the number of even number you want sum of :");
 	scanf("%d",&Number);
-	for (i=2;i<=Number+2;i++)
+	for (i=1;i<=Number;i++)
         sum +=Evennum;
         Evennum +=2;
         printf("%d",Evennum);
