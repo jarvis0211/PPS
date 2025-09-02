@@ -21,7 +21,7 @@ int main(){
 		    
 		                 
 		printf("\nThe sum of Marks of students %d is : %d\n",Student,Sum);
-	    printf("The Average of Student %d is : %f\n",Student,Sum/NumS);
+	    printf("The Average of Student %d is : %d\n",Student,Sum/NumS);
 	
 		
 	}
