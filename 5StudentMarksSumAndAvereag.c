@@ -13,7 +13,7 @@ int main(){
 		 Sum = Sum+Marks;	
 		}
 		printf("\nThe sum of Marks of students %d is : %d\n",Student,Sum);
-	    printf("The Average of Marks of Student %d is : %d\n",Student,Sum/5);
+	    printf("The Average of Marks of Student %d is : %d\n",Student,Sum/3);
 		
 	}
 	
