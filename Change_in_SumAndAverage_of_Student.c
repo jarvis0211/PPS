@@ -2,7 +2,7 @@
 # include <stdio.h>
 
 int main(){
-	int Sub,Student,Sum,Marks,Num,NumS;
+	int Sub,Student,Sum,Marks,Num,NumS,sum=0;
 	
 	printf("Enter the number of student you want to get total and marks of:");
 	scanf("%d",&Num);
@@ -17,6 +17,7 @@ int main(){
 		 printf("\nEnter Marks for Subject %d:",Sub);
 		 scanf("%d",&Marks);
 		 Sum += Marks;
+		 sum += Marks;
 	    }
 		    
 		                 
@@ -25,6 +26,7 @@ int main(){
 	
 		
 	}
+	printf("\nThe sum of Marks of all students is : %d\n",sum);
 	
 	
 	
