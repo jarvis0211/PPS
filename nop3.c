@@ -6,23 +6,26 @@
 #include <stdio.h>
 
 int main() {
-    int rows,a=0,b=rows-30;
+    int rows,a=1;
 
     printf("Enter the number of rows: ");
     scanf("%d", &rows);
 
-    for (int i = rows; i >= a-3; i--) {
+    for (int i = 1; i <=rows ; i++) {
         
-        for (int k = 1; k <= rows - i; k++) {
+        for (int k = 1; k <= rows + i; k++) {
             printf(" ");
         }
+        int b=rows+1;
+        b -=i;
         
-        for (int j = 1; j <= i; j++) {
+        for (int j = rows; j >= i; j--) {
             printf("%d ",b);
         }
         printf("\n");
         a++;
-        b--;
+        
+        
     }
 
     return 0;
